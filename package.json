@@ -1,0 +1,27 @@
+{
+  "name": "bptf-login",
+  "version": "1.0.0",
+  "description": "Signs in to backpack.tf and gets API key and token",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "lint": "eslint ./",
+    "release": "np --no-cleanup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nicklason/node-bptf-login.git"
+  },
+  "author": "Nicklas Marc Pedersen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nicklason/node-bptf-login/issues"
+  },
+  "homepage": "https://github.com/Nicklason/node-bptf-login#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^2.0.2"
+  }
+}
