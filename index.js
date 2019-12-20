@@ -4,6 +4,14 @@ const steamLogin = require('steam-openid-login');
 
 class BackpackTFLogin {
     constructor (cookies) {
+        this.jar = null;
+    }
+
+    /**
+     * Sets cookies
+     * @param {*} cookies An array of cookies or a tough-cookie cookie jar
+     */
+    setCookies (cookies) {
         if (Array.isArray(cookies)) {
             this.jar = request.jar();
 
