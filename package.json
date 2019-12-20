@@ -1,6 +1,6 @@
 {
   "name": "bptf-login",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Signs in to backpack.tf and gets API key and token",
   "main": "index.js",
   "scripts": {
