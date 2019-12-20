@@ -3,24 +3,18 @@ const cheerio = require('cheerio');
 const steamLogin = require('steam-openid-login');
 
 class BackpackTFLogin {
-    constructor (cookies) {
-        this.jar = null;
+    constructor () {
+        this.jar = request.jar();
     }
 
     /**
      * Sets cookies
-     * @param {*} cookies An array of cookies or a tough-cookie cookie jar
+     * @param {*} cookies An array of cookies
      */
     setCookies (cookies) {
-        if (Array.isArray(cookies)) {
-            this.jar = request.jar();
-
-            cookies.forEach((cookieStr) => {
-                this.jar.setCookie(request.cookie(cookieStr), 'https://steamcommunity.com');
-            });
-        } else {
-            this.jar = cookies;
-        }
+        cookies.forEach((cookieStr) => {
+            this.jar.setCookie(request.cookie(cookieStr), 'https://steamcommunity.com');
+        });
     }
 
     /**
