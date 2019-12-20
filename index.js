@@ -102,7 +102,13 @@ class BackpackTFLogin {
                 return callback(new Error(!error ? 'An error occurred' : error));
             }
 
-            callback(null);
+            const apiKey = $('input[type=text][readonly]').val();
+
+            if (!apiKey) {
+                return callback(new Error('Could not find API key'));
+            }
+
+            callback(null, apiKey);
         });
     }
 
