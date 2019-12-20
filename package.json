@@ -18,7 +18,11 @@
     "url": "https://github.com/Nicklason/node-bptf-login/issues"
   },
   "homepage": "https://github.com/Nicklason/node-bptf-login#readme",
-  "dependencies": {},
+  "dependencies": {
+    "@nicklason/request-retry": "^1.1.2",
+    "cheerio": "^1.0.0-rc.3",
+    "steam-openid-login": "^1.0.0"
+  },
   "devDependencies": {
     "eslint": "^6.7.2",
     "eslint-config-google": "^0.14.0",
