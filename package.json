@@ -1,7 +1,7 @@
 {
-  "name": "bptf-login",
+  "name": "bptf-login-2",
   "version": "1.0.3",
-  "description": "Signs in to backpack.tf and gets API key and token",
+  "description": "Signs in to backpack.tf and gets API key and token - Originally from Nicklason",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon app.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Nicklason/node-bptf-login.git"
+    "url": "git+https://github.com/idinium96/node-bptf-login-2.git"
   },
-  "author": "Nicklas Marc Pedersen",
+  "author": "Nicklas Marc Pedersen/IdiNium",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Nicklason/node-bptf-login/issues"
+    "url": "https://github.com/idinium96/node-bptf-login-2/issues"
   },
-  "homepage": "https://github.com/Nicklason/node-bptf-login#readme",
+  "homepage": "https://github.com/idinium96/node-bptf-login-2#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "request-retry-dayjs": "^1.0.0",
