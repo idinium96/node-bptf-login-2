@@ -21,7 +21,7 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.10",
     "request-retry-dayjs": "^1.0.4",
-    "steam-openid-login-dayjs": "^1.0.3"
+    "steam-openid-login-dayjs": "^1.0.4"
   },
   "devDependencies": {}
 }
