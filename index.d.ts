@@ -17,5 +17,5 @@ export default class BptfLogin {
 
     generateAccessToken(callback: (err?: Error, accessToken?: string) => void): void;
 
-    _getUserID(): void;
+    _getUserID(): string | null;
 }
