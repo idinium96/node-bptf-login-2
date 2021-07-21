@@ -20,8 +20,8 @@
   "homepage": "https://github.com/idinium96/node-bptf-login-2#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.10",
-    "request-retry-dayjs": "^1.0.4",
-    "steam-openid-login-dayjs": "^1.0.4"
+    "request-retry-dayjs": "^1.0.5",
+    "steam-openid-login-dayjs": "^1.0.5"
   },
   "devDependencies": {}
 }
