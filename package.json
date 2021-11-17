@@ -1,6 +1,6 @@
 {
   "name": "bptf-login-2",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "description": "Signs in to backpack.tf and gets API key and token - Originally from Nicklason",
   "main": "index.js",
   "scripts": {
